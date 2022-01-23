@@ -13,6 +13,9 @@ paths:
     $ref: './paths/leagues.yaml'
   /leagues/{code}:
     $ref: './paths/league_single.yaml'
+  /players/{team}:
+    $ref: './paths/players_on_team.yaml'
+
 
 components:
   schemas:
