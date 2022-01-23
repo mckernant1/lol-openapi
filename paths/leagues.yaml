@@ -1,0 +1,12 @@
+get:
+  operationId: getLeagues
+  parameters: [ ]
+  responses:
+    '200':
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/League'
+      description: Get all the leagues

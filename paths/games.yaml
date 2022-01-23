@@ -1,0 +1,17 @@
+get:
+  operationId: getGamesForTournament
+  parameters:
+    - name: 'Tournament'
+      in: path
+      description: The Tournament to get games for
+      schema:
+        type: string
+  responses:
+    '200':
+      description: The games for the Tournament
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '#/components/schemas/Game'
