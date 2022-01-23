@@ -13,5 +13,5 @@ get:
           schema:
             type: array
             items:
-              $ref: '#/components/schemas/Tournament'
+              $ref: '../components/schemas/ddb/models/tournament.yaml#/Tournament'
       description: The tournaments for the league

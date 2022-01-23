@@ -2,5 +2,5 @@
   "generateAliasAsModel": true,
   "generateModels": true,
   "modelPackage": "com.github.mckernant1.lol.api",
-  "generateApis": true
+  "generateApis": false
 }

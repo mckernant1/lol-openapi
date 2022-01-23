@@ -11,5 +11,5 @@ get:
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/League'
+            $ref: '../components/schemas/ddb/models/league.yaml#/League'
       description: Get a league by code

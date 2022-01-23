@@ -8,5 +8,5 @@ get:
           schema:
             type: array
             items:
-              $ref: '#/components/schemas/League'
+              $ref: '../components/schemas/ddb/models/league.yaml#/League'
       description: Get all the leagues

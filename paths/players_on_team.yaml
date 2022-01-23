@@ -13,4 +13,4 @@ get:
           schema:
             type: array
             items:
-              $ref: '#/components/schemas/Player'
+            $ref: '../components/schemas/ddb/models/player.yaml#/Player'

@@ -14,4 +14,4 @@ get:
           schema:
             type: array
             items:
-              $ref: '#/components/schemas/Game'
+              $ref: '../components/schemas/ddb/models/game.yaml#/Game'
