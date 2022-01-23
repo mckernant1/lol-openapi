@@ -1,0 +1,15 @@
+Player:
+  type: object
+  properties:
+    ID:
+      type: string
+    Age:
+      type: number
+    Country:
+      type: string
+    Residency:
+      type: string
+    Role:
+      type: string
+    Team:
+      type: string

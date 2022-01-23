@@ -1,0 +1,13 @@
+League:
+  type: object
+  properties:
+    League_Short:
+      type: string
+    IsOfficial:
+      type: boolean
+    League:
+      type: string
+    Level:
+      type: string
+    Region:
+      type: string

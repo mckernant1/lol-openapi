@@ -1,0 +1,13 @@
+Team:
+  type: object
+  properties:
+    Short:
+      type: string
+    IsDisbanded:
+      type: boolean
+    Location:
+      type: string
+    Name:
+      type: string
+    Region:
+      type: string

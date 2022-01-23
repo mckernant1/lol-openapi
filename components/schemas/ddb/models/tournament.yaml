@@ -1,0 +1,19 @@
+Tournament:
+  type: object
+  additionalProperties:
+    readOnly: true
+  properties:
+    League:
+      type: string
+    Name:
+      type: string
+    DateStart:
+      type: string
+    IsOfficial:
+      type: boolean
+    IsPlayoffs:
+      type: boolean
+    IsQualifier:
+      type: boolean
+    Year:
+      type: number

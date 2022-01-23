@@ -1,0 +1,13 @@
+Game:
+  type: object
+  properties:
+    Tournament:
+      type: string
+    GameId:
+      type: string
+    DateTime:
+      type: string
+    Gamename:
+      type: string
+    MatchId:
+      type: string

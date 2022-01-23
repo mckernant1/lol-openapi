@@ -1,0 +1,57 @@
+openapi: "3.0.2"
+info:
+  title: API Title
+  version: "1.0"
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /tournaments:
+    get:
+      operationId: getTournamentsForLeague
+      parameters:
+        - name: 'League'
+          in: path
+          description: The League to get tournaments for
+          schema:
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Tournament'
+          description: The tournaments for the league
+  /games:
+    get:
+      operationId: getGamesForTournament
+      parameters:
+        - name: 'Tournament'
+          in: path
+          description: The Tournament to get games for
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The games for the Tournament
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Game'
+
+
+components:
+  schemas:
+    Tournament:
+      $ref: './components/schemas/ddb/models/tournament.yaml#/Tournament'
+    League:
+      $ref: './components/schemas/ddb/models/league.yaml#/League'
+    Game:
+      $ref: './components/schemas/ddb/models/game.yaml#/Game'
+    Player:
+      $ref: './components/schemas/ddb/models/player.yaml#/Player'
+    Team:
+      $ref: './components/schemas/ddb/models/team.yaml#/Team'
