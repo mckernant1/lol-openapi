@@ -1,5 +1,9 @@
 Team:
   type: object
+  required:
+    - Short
+    - IsDisbanded
+    - Name
   properties:
     Short:
       type: string

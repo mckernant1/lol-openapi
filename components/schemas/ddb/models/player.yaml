@@ -1,5 +1,12 @@
 Player:
   type: object
+  required:
+    - ID
+    - Age
+    - Country
+    - Residency
+    - Role
+    - Team
   properties:
     ID:
       type: string

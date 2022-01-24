@@ -1,5 +1,9 @@
 League:
   type: object
+  required:
+    - League_Short
+    - IsOfficial
+    - League
   properties:
     League_Short:
       type: string

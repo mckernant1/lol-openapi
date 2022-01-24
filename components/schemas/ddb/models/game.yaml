@@ -1,5 +1,11 @@
 Game:
   type: object
+  required:
+    - Tournament
+    - GameId
+    - DateTime
+    - Gamename
+    - MatchId
   properties:
     Tournament:
       type: string

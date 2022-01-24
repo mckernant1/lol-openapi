@@ -2,6 +2,14 @@ Tournament:
   type: object
   additionalProperties:
     readOnly: true
+  required:
+    - League
+    - Name
+    - DateStart
+    - IsOfficial
+    - IsQualifier
+    - IsPlayoffs
+    - Year
   properties:
     League:
       type: string
