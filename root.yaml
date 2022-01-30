@@ -3,7 +3,7 @@ info:
   title: Lol Esports Api
   version: "1.0"
 servers:
-  - url: https://api.server.test/v1
+  - url: https://api.lol-esports.mckernant1.com
 paths:
   /tournaments/{League}:
     $ref: './paths/tournaments.yaml'
@@ -18,6 +18,11 @@ paths:
 
 
 components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-KEY
   schemas:
     Tournament:
       $ref: './components/schemas/ddb/models/tournament.yaml#/Tournament'
@@ -29,3 +34,6 @@ components:
       $ref: './components/schemas/ddb/models/player.yaml#/Player'
     Team:
       $ref: './components/schemas/ddb/models/team.yaml#/Team'
+
+security:
+  - ApiKeyAuth: []
