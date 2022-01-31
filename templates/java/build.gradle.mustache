@@ -87,9 +87,8 @@ publishing {
 repositories {
 maven {
 url = "s3://mckernant1-mvn/release"
-credentials(AwsCredentials) {
-accessKey = System.getenv("AWS_ACCESS_KEY_ID")
-secretKey = System.getenv("AWS_SECRET_ACCESS_KEY")
+authentication {
+awsIm(AwsImAuthentication)
 }
 }
 }
