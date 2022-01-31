@@ -90,17 +90,16 @@ apply plugin: 'maven-publish'
 {{/java8}}
 
 publishing {
-publications {
-repositories {
-maven {
-url = "s3://mckernant1-mvn/release"
-credentials(AwsCredentials) {
+    repositories {
+        maven {
+            url = "s3://mckernant1-mvn/release"
+            credentials(AwsCredentials) {
 accessKey = System.getenv("AWS_ACCESS_KEY_ID")
 secretKey = System.getenv("AWS_SECRET_ACCESS_KEY")
 }
 }
 }
-
+publications {
 maven(MavenPublication) {
 artifactId = '{{artifactId}}'
 from components.java
