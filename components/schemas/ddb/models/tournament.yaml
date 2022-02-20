@@ -3,25 +3,19 @@ Tournament:
   additionalProperties:
     readOnly: true
   required:
-    - League
-    - Name
-    - DateStart
-    - IsOfficial
-    - IsQualifier
-    - IsPlayoffs
-    - Year
+    - leagueId
+    - tournamentId
+    - startDate
   properties:
-    League:
+    leagueId:
       type: string
-    Name:
+    tournamentId:
       type: string
-    DateStart:
+    startDate:
       type: string
-    IsOfficial:
+    isOfficial:
       type: boolean
-    IsPlayoffs:
+    isPlayoffs:
       type: boolean
-    IsQualifier:
+    isQualifier:
       type: boolean
-    Year:
-      type: number

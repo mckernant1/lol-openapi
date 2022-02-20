@@ -1,17 +1,17 @@
 get:
-  operationId: getGamesForTournament
+  operationId: getMatchesForTournament
   parameters:
     - name: 'Tournament'
       in: path
-      description: The Tournament to get games for
+      description: The Tournament to get matches for
       schema:
         type: string
   responses:
     '200':
-      description: The games for the Tournament
+      description: The matches for the Tournament
       content:
         application/json:
           schema:
             type: array
             items:
-              $ref: '../components/schemas/ddb/models/game.yaml#/Game'
+              $ref: '../components/schemas/ddb/models/match.yaml#/Match'

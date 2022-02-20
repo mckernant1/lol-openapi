@@ -1,0 +1,25 @@
+Match:
+  type: object
+  required:
+    - tournamentId
+    - matchId
+    - blueTeamId
+    - redTeamId
+    - startTime
+  properties:
+    tournamentId:
+      type: string
+    matchId:
+      type: string
+    bestOf:
+      type: number
+    blueTeamId:
+      type: string
+    redTeamId:
+      type: string
+    patch:
+      type: string
+    startTime:
+      type: number
+    winner:
+      type: string

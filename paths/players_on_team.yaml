@@ -1,6 +1,6 @@
 get:
   parameters:
-    - name: team
+    - name: teamId
       in: path
       description: Get players on a team
       schema:

@@ -1,22 +1,19 @@
 Player:
   type: object
   required:
-    - ID
-    - Age
-    - Country
-    - Residency
-    - Role
-    - Team
+    - id
   properties:
-    ID:
+    id:
       type: string
-    Age:
+    age:
       type: number
-    Country:
+    country:
       type: string
-    Residency:
+    isSubstitute:
+      type: boolean
+    residency:
       type: string
-    Role:
+    role:
       type: string
-    Team:
+    teamId:
       type: string

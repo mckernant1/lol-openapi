@@ -1,17 +1,16 @@
 Team:
   type: object
   required:
-    - Short
-    - IsDisbanded
-    - Name
+    - code
+    - name
   properties:
-    Short:
+    code:
       type: string
-    IsDisbanded:
+    isDisbanded:
       type: boolean
-    Location:
+    location:
       type: string
-    Name:
+    name:
       type: string
-    Region:
+    region:
       type: string

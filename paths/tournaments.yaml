@@ -1,7 +1,7 @@
 get:
   operationId: getTournamentsForLeague
   parameters:
-    - name: 'League'
+    - name: leagueId
       in: path
       description: The League to get tournaments for
       schema:

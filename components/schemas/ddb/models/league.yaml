@@ -1,17 +1,17 @@
 League:
   type: object
   required:
-    - League_Short
-    - IsOfficial
-    - League
+    - leagueId
+    - isOfficial
+    - leagueName
   properties:
-    League_Short:
+    leagueId:
       type: string
-    IsOfficial:
+    isOfficial:
       type: boolean
-    League:
+    leagueName:
       type: string
-    Level:
+    level:
       type: string
-    Region:
+    region:
       type: string
