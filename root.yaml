@@ -5,15 +5,15 @@ info:
 servers:
   - url: https://api.lol-esports.mckernant1.com
 paths:
-  /tournaments/{League}:
+  /tournaments/{leagueId}:
     $ref: './paths/tournaments.yaml'
-  /games/{Tournament}:
-    $ref: './paths/games.yaml'
+  /matches/{tournamentId}:
+    $ref: './paths/matches.yaml'
   /leagues:
     $ref: './paths/leagues.yaml'
-  /leagues/{code}:
+  /leagues/{leagueId}:
     $ref: './paths/league_single.yaml'
-  /players/{team}:
+  /players/{teamId}:
     $ref: './paths/players_on_team.yaml'
 
 
@@ -29,7 +29,7 @@ components:
     League:
       $ref: './components/schemas/ddb/models/league.yaml#/League'
     Game:
-      $ref: './components/schemas/ddb/models/game.yaml#/Game'
+      $ref: './components/schemas/ddb/models/match.yaml#/Match'
     Player:
       $ref: './components/schemas/ddb/models/player.yaml#/Player'
     Team:

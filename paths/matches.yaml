@@ -1,7 +1,7 @@
 get:
   operationId: getMatchesForTournament
   parameters:
-    - name: 'Tournament'
+    - name: 'tournamentId'
       in: path
       description: The Tournament to get matches for
       schema:

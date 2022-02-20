@@ -1,10 +1,10 @@
 Team:
   type: object
   required:
-    - code
+    - teamId
     - name
   properties:
-    code:
+    teamId:
       type: string
     isDisbanded:
       type: boolean
