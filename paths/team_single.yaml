@@ -1,0 +1,15 @@
+get:
+  operationId: getTeamByCode
+  parameters:
+    - name: teamId
+      in: path
+      description: Get a team by code
+      schema:
+        type: string
+  responses:
+    '200':
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/ddb/models/team.yaml#/Team'
+      description: Get a team by code

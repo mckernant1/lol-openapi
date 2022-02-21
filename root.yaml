@@ -1,7 +1,7 @@
 openapi: "3.0.2"
 info:
   title: Lol Esports Api
-  version: "0.0.2"
+  version: "0.0.3"
 servers:
   - url: https://api.lol-esports.mckernant1.com
 paths:
@@ -15,6 +15,10 @@ paths:
     $ref: './paths/league_single.yaml'
   /players/{teamId}:
     $ref: './paths/players_on_team.yaml'
+  /teams:
+    $ref: './paths/teams.yaml'
+  /teams/{teamdId}:
+    $ref: './paths/team_single.yaml'
 
 
 components:
