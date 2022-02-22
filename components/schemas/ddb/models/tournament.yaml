@@ -1,7 +1,5 @@
 Tournament:
   type: object
-  additionalProperties:
-    readOnly: true
   required:
     - leagueId
     - tournamentId
