@@ -1,4 +1,5 @@
 get:
+  operationId: getPlayersOnTeam
   parameters:
     - name: teamId
       in: path

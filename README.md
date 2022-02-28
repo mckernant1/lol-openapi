@@ -1,6 +1,8 @@
 # Lol OpenApi
 A league of legends esports API
 
+Documentation: https://mckernant1.github.io/lol-openapi/
+
 [![Dashboard](https://img.shields.io/static/v1?label=AWS&message=Dashboard&color=green)](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Lol-Esports-API&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTY1MzUyODg3Mzk1MSIsIlUiOiJ1cy1lYXN0LTFfWWdlV3dsS0tGIiwiQyI6Ijc4OHJ1bGIzdDNvaTc3dTJjbGhoOTlzbGNpIiwiSSI6InVzLWVhc3QtMTpiMWEzODM2My1mYjA5LTQzYmYtYTQyYi0yNTkyYWM0OTQ4YzUiLCJPIjoiYXJuOmF3czppYW06OjY1MzUyODg3Mzk1MTpyb2xlL3NlcnZpY2Utcm9sZS9DV0RCU2hhcmluZy1QdWJsaWNSZWFkT25seUFjY2Vzcy1JOE5RVldYVCIsIk0iOiJQdWJsaWMifQ==)
 
 
