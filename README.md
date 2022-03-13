@@ -16,12 +16,12 @@ Public Api Key: `CO6gm83RDj3U7LW2uFqKx41n0S834zFi4V7o2fKL`
 
 ### Java
 Add maven to repositories
-```
+```build.gradle.kts
 repositories {
     mavenCentral()
     jcenter()
     maven {
-        url = uri("http://mckernant1-mvn.s3-website-us-west-2.amazonaws.com/release")
+        url = uri("https://mvn.mckernant1.com/release")
     }
 }
 ```
