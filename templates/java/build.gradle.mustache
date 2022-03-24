@@ -86,7 +86,7 @@ targetCompatibility = JavaVersion.VERSION_1_8
 publishing {
 repositories {
 maven {
-url = "s3://mvn.mckernant1.com/release"
+url = "{{artifactUrl}}"
 authentication {
 awsIm(AwsImAuthentication)
 }
