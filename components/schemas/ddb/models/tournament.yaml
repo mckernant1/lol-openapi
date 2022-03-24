@@ -11,6 +11,8 @@ Tournament:
       type: string
     startDate:
       type: string
+    endDate:
+      type: string
     isOfficial:
       type: boolean
     isPlayoffs:
