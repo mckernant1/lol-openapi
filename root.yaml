@@ -1,7 +1,7 @@
 openapi: "3.0.2"
 info:
   title: Lol Esports Api
-  version: "0.0.7"
+  version: "0.0.8"
   description: "League of Legends Esports API"
 externalDocs:
   url: https://mckernant1.github.io/lol-openapi/

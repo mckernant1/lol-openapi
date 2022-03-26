@@ -13,3 +13,7 @@ get:
           schema:
             $ref: '../components/schemas/ddb/models/team.yaml#/Team'
       description: Get a team by code
+    '400':
+      $ref: '../components/schemas/errors/error_responses.yaml#/BadRequestErrorResponseSchema'
+    '500':
+      $ref: '../components/schemas/errors/error_responses.yaml#/InternalServerErrorResponseSchema'

@@ -10,3 +10,5 @@ get:
             items:
               $ref: '../components/schemas/ddb/models/team.yaml#/Team'
       description: Get all the teams
+    '500':
+      $ref: '../components/schemas/errors/error_responses.yaml#/InternalServerErrorResponseSchema'

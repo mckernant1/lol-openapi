@@ -1,0 +1,14 @@
+InternalServerErrorResponseSchema:
+  description: Internal Server Error
+  content:
+    application/json:
+      schema:
+        $ref: './error_model.yaml#/EsportsServerError'
+
+BadRequestErrorResponseSchema:
+  description: Bad Request Error
+  content:
+    application/json:
+      schema:
+        $ref: './error_model.yaml#/EsportsServerError'
+

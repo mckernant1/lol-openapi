@@ -15,3 +15,7 @@ get:
             items:
               $ref: '../components/schemas/ddb/models/tournament.yaml#/Tournament'
       description: The tournaments for the league
+    '400':
+      $ref: '../components/schemas/errors/error_responses.yaml#/BadRequestErrorResponseSchema'
+    '500':
+      $ref: '../components/schemas/errors/error_responses.yaml#/InternalServerErrorResponseSchema'
