@@ -1,7 +1,7 @@
 openapi: "3.0.2"
 info:
   title: Lol Esports Api
-  version: "0.0.8"
+  version: "0.0.9"
   description: "League of Legends Esports API"
 externalDocs:
   url: https://mckernant1.github.io/lol-openapi/
@@ -10,6 +10,8 @@ servers:
 paths:
   /tournaments/{leagueId}:
     $ref: './paths/tournaments.yaml'
+  /ongoing-tournaments:
+    $ref: './paths/ongoing_tourneys.yaml'
   /matches/{tournamentId}:
     $ref: './paths/matches.yaml'
   /leagues:
