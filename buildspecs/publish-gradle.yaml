@@ -3,7 +3,7 @@ version: 0.2
 
 env:
   secrets-manager:
-    NPM_TOKEN: npm-token
+    NPM_TOKEN: "npm-token:NPM_TOKEN"
 
 phases:
   install:
@@ -11,6 +11,7 @@ phases:
       - npm install @openapitools/openapi-generator-cli -g
   pre_build:
     commands:
+      - echo $NPM_TOKEN
       - npm whoami
   build:
     commands:
