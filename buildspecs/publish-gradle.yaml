@@ -16,7 +16,7 @@ phases:
   build:
     commands:
       - openapi-generator-cli generate -g java -i root.yaml -o gen -c config.json -t templates/java
-      - openapi-generator-cli generate -g javascript -i root.yaml -o gen-js -c config.json -t templates/java
+      - openapi-generator-cli generate -g typescript -i root.yaml -o gen-js -c config.json -t templates/java
   post_build:
     commands:
       - cd gen
