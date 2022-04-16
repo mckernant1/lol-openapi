@@ -7,6 +7,5 @@
   "groupId": "com.github.mckernant1.lol",
   "artifactId": "esports-api",
   "artifactUrl": "s3://mvn.mckernant1.com/release",
-  "artifactVersion": "0.0.10",
-  "npmName": "@mckernant1/lol_esports_api"
+  "artifactVersion": "0.0.11"
 }

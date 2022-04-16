@@ -15,12 +15,12 @@ phases:
       - npm whoami
   build:
     commands:
-      - openapi-generator-cli generate -g java -i root.yaml -o gen -c config.json -t templates/java
-      - openapi-generator-cli generate -g typescript -i root.yaml -o gen-js -c config.json -t templates/java
+      - openapi-generator-cli generate -g java -i root.yaml -o gen -c config-java.json -t templates/java
+      - openapi-generator-cli generate -g typescript -i root.yaml -o gen-ts -c config-ts.json
   post_build:
     commands:
       - cd gen
       - gradle publish
-      - cd ../gen-js
+      - cd ../gen-ts
       - npm i
       - npm publish
