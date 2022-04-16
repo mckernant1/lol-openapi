@@ -5,14 +5,14 @@ phases:
   install:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
-  java:
+  build:
     commands:
       - openapi-generator-cli generate -g java -i root.yaml -o gen -c config.json -t templates/java
+      - openapi-generator-cli generate -g javascript -i root.yaml -o gen-js -c config.json -t templates/java
+  post_build:
+    commands:
       - cd gen
       - gradle publish
-  javascript:
-    commands:
-      - openapi-generator-cli generate -g javascript -i root.yaml -o gen-js -c config.json -t templates/java
-      - cd gen-js
+      - cd ../gen-js
       - npm i
       - npm publish
