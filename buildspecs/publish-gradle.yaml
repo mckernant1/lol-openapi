@@ -5,6 +5,9 @@ phases:
   install:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
+  pre_build:
+    commands:
+      - npm whoami
   build:
     commands:
       - openapi-generator-cli generate -g java -i root.yaml -o gen -c config.json -t templates/java
