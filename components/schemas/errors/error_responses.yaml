@@ -12,3 +12,9 @@ BadRequestErrorResponseSchema:
       schema:
         $ref: './error_model.yaml#/EsportsServerError'
 
+NotFoundErrorResponseSchema:
+  description: Not Found Error
+  content:
+    application/json:
+      schema:
+        $ref: './error_model.yaml#/EsportsServerError'
