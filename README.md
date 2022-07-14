@@ -1,5 +1,6 @@
 # Lol OpenApi
-A league of legends esports API
+A league of legends esports API.
+Requests may take up to 20 seconds to respond
 
 Documentation: https://mckernant1.github.io/lol-openapi/
 
