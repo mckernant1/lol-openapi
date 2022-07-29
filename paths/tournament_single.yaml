@@ -1,0 +1,19 @@
+get:
+  operationId: getTournament
+  parameters:
+    - name: tournamentId
+      in: path
+      description: The tournamentId to get
+      schema:
+        type: string
+  responses:
+    '200':
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/ddb/models/tournament.yaml#/Tournament'
+      description: The tournaments for the league
+    '404':
+      $ref: '../components/schemas/errors/error_responses.yaml#/NotFoundErrorResponseSchema'
+    '500':
+      $ref: '../components/schemas/errors/error_responses.yaml#/InternalServerErrorResponseSchema'

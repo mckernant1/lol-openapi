@@ -10,6 +10,8 @@ servers:
 paths:
   /tournaments/{leagueId}:
     $ref: './paths/tournaments.yaml'
+  /tournament/{tournamentId}:
+    $ref: './paths/tournament_single.yaml'
   /ongoing-tournaments:
     $ref: './paths/ongoing_tourneys.yaml'
   /matches/{tournamentId}:
