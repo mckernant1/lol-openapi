@@ -1,6 +1,7 @@
 # Lol OpenApi
 A league of legends esports API.
-Requests may take up to 20 seconds to respond
+
+Spring backend: https://github.com/mckernant1/lol-api-service
 
 Documentation: https://mckernant1.github.io/lol-openapi/
 
@@ -27,7 +28,7 @@ repositories {
 
 Add dependency on esports-api
 ```
-implementation("com.github.mckernant1.lol:esports-api:0.0.1")
+implementation("com.github.mckernant1.lol:esports-api:0.0.9")
 ```
 
 
