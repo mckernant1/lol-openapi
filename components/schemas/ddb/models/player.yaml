@@ -7,13 +7,19 @@ Player:
       type: string
     age:
       type: number
+      nullable: true
     country:
       type: string
+      nullable: true
     isSubstitute:
       type: boolean
+      nullable: true
     residency:
       type: string
+      nullable: true
     role:
       type: string
+      nullable: true
     teamId:
       type: string
+      nullable: true

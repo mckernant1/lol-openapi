@@ -13,9 +13,13 @@ Tournament:
       type: string
     endDate:
       type: string
+      nullable: true
     isOfficial:
       type: boolean
+      nullable: true
     isPlayoffs:
       type: boolean
+      nullable: true
     isQualifier:
       type: boolean
+      nullable: true

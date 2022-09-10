@@ -13,5 +13,7 @@ League:
       type: string
     level:
       type: string
+      nullable: true
     region:
       type: string
+      nullable: true
