@@ -4,7 +4,7 @@ Requests may take up to 20 seconds to respond
 
 Documentation: https://mckernant1.github.io/lol-openapi/
 
-[![Dashboard](https://img.shields.io/static/v1?label=AWS&message=Dashboard&color=green)](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Lol-Esports-Api-Operations&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTY1MzUyODg3Mzk1MSIsIlUiOiJ1cy1lYXN0LTFfWWdlV3dsS0tGIiwiQyI6Ijc4OHJ1bGIzdDNvaTc3dTJjbGhoOTlzbGNpIiwiSSI6InVzLWVhc3QtMTphYThiMWIxZC05NGI4LTQ2MDktYTRlOS0xMzU4NDlmMmRmMmIiLCJNIjoiUHVibGljIn0%3D)
+[![Dashboard](https://img.shields.io/static/v1?label=AWS&message=Dashboard&color=green)](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Lol-Esports-Api-V2&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTY1MzUyODg3Mzk1MSIsIlUiOiJ1cy1lYXN0LTFfWWdlV3dsS0tGIiwiQyI6Ijc4OHJ1bGIzdDNvaTc3dTJjbGhoOTlzbGNpIiwiSSI6InVzLWVhc3QtMTozZTFmYmM5Yi05MDZmLTQ5ZjQtOWFkYy0xZmE1OTJkNjk1YjkiLCJPIjoiYXJuOmF3czppYW06OjY1MzUyODg3Mzk1MTpyb2xlL3NlcnZpY2Utcm9sZS9DV0RCU2hhcmluZy1QdWJsaWNSZWFkT25seUFjY2Vzcy1YWDNITURQRyIsIk0iOiJQdWJsaWMifQ==)
 
 
 ## Authorization
