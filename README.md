@@ -9,7 +9,7 @@ Documentation: https://mckernant1.github.io/lol-openapi/
 
 ## Authorization
 
-Url: `https://api.lol-esports.mckernant1.com`
+Url: `https://v2-api.lol-esports.mckernant1.com`
 
 Public Api Key: `CO6gm83RDj3U7LW2uFqKx41n0S834zFi4V7o2fKL`
 
