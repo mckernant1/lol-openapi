@@ -35,5 +35,5 @@ implementation("com.github.mckernant1.lol:esports-api:0.0.1")
 ### Curl
 
 ```bash
-curl -H https://v2-api.lol-esports.mckernant1.com/leagues
+curl https://v2-api.lol-esports.mckernant1.com/leagues
 ```
