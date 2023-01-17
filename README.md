@@ -15,6 +15,10 @@ Url: `https://v2-api.lol-esports.mckernant1.com`
 ## Platforms
 
 ### Java
+
+![Version](https://badgen.net/maven/v/metadata-url/https/mvn.mckernant1.com/release/com/github/mckernant1/lol/esports-api/maven-metadata.xml)
+
+
 Add maven to repositories
 ```build.gradle.kts
 repositories {
