@@ -1,10 +1,17 @@
 version: 0.2
 
+env:
+  secrets-manager:
+    CRATES_PUBLISH_KEY: "cratesio-publish:CRATES_PUBLISH_KEY"
+
 phases:
   install:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
       - openapi-generator-cli version-manager set 5.4.0
+  pre-build:
+    commands:
+      - cargo login --config KEY=$CRATES_PUBLISH_KEY
   build:
     commands:
       - openapi-generator-cli generate -g rust-server -i root.yaml -o gen -c config-rust.json
