@@ -11,8 +11,8 @@ phases:
       - npm whoami
   build:
     commands:
-      - openapi-generator-cli generate -g java -i root.yaml -o gen -c config-java.json -t templates/java
+      - openapi-generator-cli generate -g rust-server -i root.yaml -o gen -c config-rust.json
   post_build:
     commands:
       - cd gen
-      - gradle publish
+      - cargo publish
