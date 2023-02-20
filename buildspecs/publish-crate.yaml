@@ -5,10 +5,6 @@ phases:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
       - openapi-generator-cli version-manager set 5.4.0
-  pre_build:
-    commands:
-      - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-      - npm whoami
   build:
     commands:
       - openapi-generator-cli generate -g rust-server -i root.yaml -o gen -c config-rust.json
