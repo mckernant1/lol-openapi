@@ -9,7 +9,7 @@ phases:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
       - openapi-generator-cli version-manager set 5.4.0
-  pre-build:
+  pre_build:
     commands:
       - cargo login --config KEY=$CRATES_PUBLISH_KEY
   build:
