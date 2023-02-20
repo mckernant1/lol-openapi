@@ -11,7 +11,7 @@ phases:
       - openapi-generator-cli version-manager set 5.4.0
   pre_build:
     commands:
-      - cargo login < $CRATES_PUBLISH_KEY
+      - echo $CRATES_PUBLISH_KEY | cargo login
   build:
     commands:
       - openapi-generator-cli generate -g rust-server -i root.yaml -o gen -c config-rust.json
