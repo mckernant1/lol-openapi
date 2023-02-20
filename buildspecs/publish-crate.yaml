@@ -9,7 +9,7 @@ phases:
     commands:
       - npm install @openapitools/openapi-generator-cli -g
       - openapi-generator-cli version-manager set 5.4.0
-      - curl https://sh.rustup.rs -sSf | sh
+      - curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable
   pre_build:
     commands:
       - echo $CRATES_PUBLISH_KEY | cargo login
