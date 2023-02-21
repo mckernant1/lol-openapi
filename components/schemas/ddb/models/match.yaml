@@ -13,16 +13,13 @@ Match:
       type: string
     bestOf:
       type: number
-      nullable: true
     blueTeamId:
       type: string
     redTeamId:
       type: string
     patch:
       type: string
-      nullable: true
     startTime:
       type: number
     winner:
       type: string
-      nullable: true

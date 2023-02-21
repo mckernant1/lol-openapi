@@ -8,12 +8,9 @@ Team:
       type: string
     isDisbanded:
       type: boolean
-      nullable: true
     location:
       type: string
-      nullable: true
     name:
       type: string
     region:
       type: string
-      nullable: true
