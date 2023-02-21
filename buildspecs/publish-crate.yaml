@@ -15,7 +15,7 @@ phases:
       - echo $CRATES_PUBLISH_KEY | cargo login
   build:
     commands:
-      - openapi-generator-cli generate -g rust-server -i root.yaml -o gen -c config-rust.json
+      - openapi-generator-cli generate -g rust -i root.yaml -o gen -c config-rust.json
   post_build:
     commands:
       - cd gen
