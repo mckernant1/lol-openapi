@@ -32,7 +32,7 @@ repositories {
 
 Add dependency on esports-api
 ```
-implementation("com.github.mckernant1.lol:esports-api:0.0.9")
+implementation("com.github.mckernant1.lol:esports-api:0.0.20")
 ```
 
 
@@ -40,5 +40,5 @@ implementation("com.github.mckernant1.lol:esports-api:0.0.9")
 ### Curl
 
 ```bash
-curl https://v2-api.lol-esports.mckernant1.com/leagues
+curl https://api.lol-esports.mckernant1.com/leagues
 ```
