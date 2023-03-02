@@ -10,7 +10,7 @@ Documentation: https://mckernant1.github.io/lol-openapi/
 
 ## Authorization
 
-Url: `https://v2-api.lol-esports.mckernant1.com`
+Url: `https://api.lol-esports.mckernant1.com`
 
 ## Platforms
 
