@@ -3,7 +3,6 @@ Tournament:
   required:
     - leagueId
     - tournamentId
-    - startDate
   properties:
     leagueId:
       type: string
