@@ -12,7 +12,7 @@ Match:
     matchId:
       type: string
     bestOf:
-      type: number
+      type: string
     blueTeamId:
       type: string
     redTeamId:
