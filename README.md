@@ -1,6 +1,8 @@
 # Lol OpenApi
 A league of legends esports API.
 
+Discord: https://discord.gg/pqJ3nphp
+
 Spring backend: https://github.com/mckernant1/lol-api-service
 
 Documentation: https://mckernant1.github.io/lol-openapi/
@@ -42,3 +44,10 @@ implementation("com.github.mckernant1.lol:esports-api:0.0.20")
 ```bash
 curl https://api.lol-esports.mckernant1.com/leagues
 ```
+
+### GraphQL
+
+GraphQL Endpoint: `https://api.lol-esports.mckernant1.com/graphql`
+
+GraphiQL UI: https://api.lol-esports.mckernant1.com/graphiql?path=/graphql
+
