@@ -1,8 +1,8 @@
 version: 0.2
 
 env:
-  secrets-manager:
-    CRATES_PUBLISH_KEY: "cratesio-publish:CRATES_PUBLISH_KEY"
+  parameter-store:
+    CRATES_PUBLISH_KEY: "cratesio-publish"
 
 phases:
   install:
