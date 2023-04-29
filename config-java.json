@@ -1,11 +1,11 @@
 {
   "generateAliasAsModel": true,
   "generateModels": true,
-  "modelPackage": "com.github.mckernant1.lol.esports.api.models",
-  "apiPackage": "com.github.mckernant1.lol.esports.api.client",
+  "modelPackage": "com.mckernant1.lol.esports.api.models",
+  "apiPackage": "com.mckernant1.lol.esports.api.client",
   "generateApis": true,
-  "groupId": "com.github.mckernant1.lol",
+  "groupId": "com.mckernant1.lol",
   "artifactId": "esports-api",
   "artifactUrl": "s3://mvn.mckernant1.com/release",
-  "artifactVersion": "0.0.22"
+  "artifactVersion": "0.1.0"
 }
