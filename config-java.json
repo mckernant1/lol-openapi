@@ -7,5 +7,5 @@
   "groupId": "com.mckernant1.lol",
   "artifactId": "esports-api",
   "artifactUrl": "s3://mvn.mckernant1.com/release",
-  "artifactVersion": "0.1.0"
+  "artifactVersion": "0.2.0"
 }
