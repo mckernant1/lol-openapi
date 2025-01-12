@@ -23,3 +23,7 @@ Match:
       type: number
     winner:
       type: string
+    vod:
+      type: string
+    highlight:
+      type: string
