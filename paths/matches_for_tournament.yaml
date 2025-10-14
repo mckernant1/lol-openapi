@@ -1,22 +1,14 @@
 get:
-  operationId: getMatches
-  description: Get matches, one of tournament or league is required
+  operationId: getMatchesForTournament
   parameters:
     - name: 'tournamentId'
-      in: query
+      in: path
       description: The Tournament to get matches for
-      required: false
-      schema:
-        type: string
-    - name: 'leagueId'
-      in: query
-      description: The League to get matches for
-      required: false
       schema:
         type: string
   responses:
     '200':
-      description: The matches for the Tournament or league
+      description: The matches for the Tournament
       content:
         application/json:
           schema:
@@ -27,5 +19,3 @@ get:
       $ref: '../components/schemas/errors/error_responses.yaml#/NotFoundErrorResponseSchema'
     '500':
       $ref: '../components/schemas/errors/error_responses.yaml#/InternalServerErrorResponseSchema'
-    '400':
-      $ref: '../components/schemas/errors/error_responses.yaml#/BadRequestErrorResponseSchema'
