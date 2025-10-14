@@ -2,15 +2,15 @@ get:
   operationId: getMatches
   description: Get matches, one of tournament or league is required
   parameters:
-    - name: 'tournamentId'
-      in: query
-      description: The Tournament to get matches for
-      required: false
-      schema:
-        type: string
     - name: 'leagueId'
       in: query
       description: The League to get matches for
+      required: false
+      schema:
+        type: string
+    - name: 'tournamentId'
+      in: query
+      description: The Tournament to get matches for
       required: false
       schema:
         type: string
