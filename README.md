@@ -18,7 +18,7 @@ Url: `https://api.lol-esports.mckernant1.com`
 
 ### Java
 
-![Version](https://badgen.net/maven/v/metadata-url/https/mvn.mckernant1.com/release/com/github/mckernant1/lol/esports-api/maven-metadata.xml)
+![Version](https://badgen.net/maven/v/metadata-url/https/mvn.mckernant1.com/release/com/mckernant1/lol/esports-api/maven-metadata.xml)
 
 
 Add maven to repositories
